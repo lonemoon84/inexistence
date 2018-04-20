@@ -2137,7 +2137,7 @@ function _installde() {
       fi
 
       if [[ $DESKIP == Yes ]]; then
-          export DEVERSION=1.3.15
+          DEVERSION=1.3.15
           cd ; wget --no-check-certificate -O deluge-"${DEVERSION}".tar.gz https://github.com/Aniverse/BitTorrentClientCollection/raw/master/Deluge/deluge-"${DEVERSION}".skip.tar.gz
           echo -e "\n\n\nDELUGE SKIP HASH CHECK (FOR LOG)\n\n\n"
       else
